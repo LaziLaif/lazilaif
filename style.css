@@ -1,0 +1,162 @@
+body {
+	background-image: url(assets/images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Inter', sans-serif;
+	color: rgba(232, 230, 227, 0.59);
+	font-size: 1.15rem;
+}
+
+.box {
+	background-color: rgba(129, 0, 47, 0.25);
+	border: 0;
+	border-color: rgba(208, 0, 87, 0.48);
+	border-style: solid;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-radius: 1rem;
+	box-shadow: none;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	color: rgba(232, 230, 227, 0.59);
+}
+
+.box.py-more {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+.pinkText {
+	color: rgb(222, 139, 169);
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+	font-weight: 600;
+}
+
+.specialText {
+	font-family: 'Poppins', sans-serif;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: rgb(255, 75, 141);
+	background-image: linear-gradient(45deg, rgb(106, 81, 16) 0%, rgb(161, 0, 59) 85%);
+	font-weight: 700;
+}
+
+.divider1 {
+	background-color: rgba(129, 0, 47, 0.39);
+	width: 50%;
+	margin: 0 auto;
+}
+
+.divider2 {
+	background-color: transparent;
+	width: 8rem;
+	margin: 0 auto;
+	border-top: dotted 7px rgba(255,125,172,0.388);
+	border-top-color: rgba(141, 0, 51, 0.39);
+	height: 7px;
+}
+
+.button {
+	font-family: 'Inter', sans-serif;
+	font-weight: 100;
+	letter-spacing: .05rem;
+}
+
+.button.is-pink {
+	background-color: rgba(208, 0, 87, 0.48);
+	color: rgba(232, 230, 227, 0.59);
+	border: 0;
+	font-size: 1.25rem;
+	
+	:hover{
+		background-color: rgb(222, 139, 169);
+	}
+}
+
+.button.is-pink:hover {
+	background-color: rgba(208, 0, 87, 0.48);
+	color: #ffd966;
+	border: 0;
+}
+
+.button.is-pink:focus {
+	box-shadow: none;
+}
+
+.table {
+	width: 100%;
+	background-color: transparent;
+	font-family: 'Inter', sans-serif;
+}
+
+.table, .table thead td, .table thead th {
+	color: rgba(232, 230, 227, 0.59);
+}
+
+.table td, .table th {
+	text-align: center !important;
+    border: 0;
+}
+
+.table thead {
+	border-bottom: solid 2px rgba(158,0,66,0.671);
+}
+
+.svg_tick{
+    background-image: url(assets/icons/tick.svg);
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+}
+
+.svg_twitter{
+    background-image: url(assets/icons/twitter.svg);
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+
+.svg_discord{
+    background-image: url(assets/icons/discord.svg);
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+
+.svg_twitch{
+    background-image: url(assets/icons/twitch.svg);
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+
+.columns.has-list > .column.has-svg {
+	padding-right: 0;
+	text-align: right;
+}
+
+.columns.has-list > .column {
+	text-align: left;
+}
+
+a {
+	color: rgb(222, 139, 169);
+	text-decoration: underline;
+}
+
+a:hover{
+	color: rgba(222, 139, 169, .4);
+}
+
+#modelPortfolio img {
+	padding: 20px;
+}
+
+iframe {
+	max-width: 100%;
+}
